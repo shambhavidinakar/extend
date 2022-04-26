@@ -26,9 +26,9 @@ The list of users APIs:
 
 |METHOD|URL|PARAMETERS|
 |------|---|---------------|
-|GET|http://localhost:8080/login |email(string),password(string) |
-|POST|http://localhost:8080/getAllCards |lite(optional) |
+|POST|http://localhost:8080/login |email(string),password(string) |
+|GET|http://localhost:8080/getAllCards |lite(optional) |
 |GET|http://localhost:8080/getAllTransactionsForCard | id(string),lite(optional)|
-|PUT|http://localhost:8080/getTransactionDetails | id(string),lite(optional) |
-|DELETE|http://localhost:8080/getAllCardsTransactions | lite(optional) |
+|GET|http://localhost:8080/getTransactionDetails | id(string),lite(optional) |
+|GET|http://localhost:8080/getAllCardsTransactions | lite(optional) |
 
