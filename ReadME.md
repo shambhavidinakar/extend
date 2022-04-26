@@ -27,7 +27,7 @@ Base URL : http://localhost:8080
 The list of users APIs:
 
 |METHOD|URL|PARAMETERS|DESCRIPTION|
-|------|---|---------------|
+|------|---|---------------|----------------------------------|
 |POST|/login |email(string),password(string) | Login with email and password |
 |GET|/getAllCards |lite(optional) | Get all cards of the user(logged in) |
 |GET|/getAllTransactionsForCard | id(string),lite(optional)| Get all transactions of given card id |
