@@ -88,9 +88,6 @@ type Result struct {
 }
 
 const (
-	//staticDir is the place for static html
-	staticDir = "./web/"
-	//PORT set to regular http 8080
 	port = "8080"
 )
 
