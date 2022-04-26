@@ -16,19 +16,21 @@ In this project, you see how to build a Node CLI in-memory database.
 
 ## Installation and Execution (if applicable)
 
-1. $ git clone https://go.googlesource.com/example
+1. $ git clone git@github.com:shambhavidinakar/extend.git
 2. $ cd extend
-3. $ go build  
-4. $./extend
+3. $ go build server.go 
+4. $./server
 
 ## APIs
+
+Base URL : http://localhost:8080
 The list of users APIs:
 
-|METHOD|URL|PARAMETERS|
-|------|---|---------------|
-|GET|http://localhost:8080/login |email(string),password(string) |
-|POST|http://localhost:8080/getAllCards |lite(optional) |
-|GET|http://localhost:8080/getAllTransactionsForCard | id(string),lite(optional)|
-|PUT|http://localhost:8080/getTransactionDetails | id(string),lite(optional) |
-|DELETE|http://localhost:8080/getAllCardsTransactions | lite(optional) |
+|METHOD|URL|PARAMETERS|DESCRIPTION|
+|------|---|---------------|----------------------------------|
+|POST|/login |email(string),password(string) | Login with email and password |
+|GET|/getAllCards |lite(optional) | Get all cards of the user(logged in) |
+|GET|/getAllTransactionsForCard | id(string),lite(optional)| Get all transactions of given card id |
+|GET|/getTransactionDetails | id(string),lite(optional) | Get all transaction details of given transaction id |
+|GET|/getAllCardsTransactions | lite(optional) | Get all cards and all transactions of each card of the user(logged in)|
 
