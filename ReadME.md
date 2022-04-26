@@ -16,7 +16,7 @@ In this project, you see how to build a Node CLI in-memory database.
 
 ## Installation and Execution (if applicable)
 
-1. $ git clone https://go.googlesource.com/example
+1. $ git clone git@github.com:shambhavidinakar/extend.git
 2. $ cd extend
 3. $ go build  
 4. $./extend
